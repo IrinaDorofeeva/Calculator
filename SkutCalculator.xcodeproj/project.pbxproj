@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D5DC9F1CF639EA00EF0D7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DC9E1CF639EA00EF0D7C /* main.m */; };
+		04D5DCA21CF639EA00EF0D7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DCA11CF639EA00EF0D7C /* AppDelegate.m */; };
+		04D5DCA51CF639EA00EF0D7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DCA41CF639EA00EF0D7C /* ViewController.m */; };
+		04D5DCA81CF639EA00EF0D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5DCA61CF639EA00EF0D7C /* Main.storyboard */; };
+		04D5DCAA1CF639EA00EF0D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D5DCA91CF639EA00EF0D7C /* Assets.xcassets */; };
+		04D5DCAD1CF639EA00EF0D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5DCAB1CF639EA00EF0D7C /* LaunchScreen.storyboard */; };
+		04D5DCB81CF639EA00EF0D7C /* SkutCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DCB71CF639EA00EF0D7C /* SkutCalculatorTests.m */; };
+		04D5DCC31CF639EA00EF0D7C /* SkutCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DCC21CF639EA00EF0D7C /* SkutCalculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D5DCB41CF639EA00EF0D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D5DC921CF639EA00EF0D7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D5DC991CF639EA00EF0D7C;
+			remoteInfo = SkutCalculator;
+		};
+		04D5DCBF1CF639EA00EF0D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D5DC921CF639EA00EF0D7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D5DC991CF639EA00EF0D7C;
+			remoteInfo = SkutCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D5DC9A1CF639EA00EF0D7C /* SkutCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkutCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D5DC9E1CF639EA00EF0D7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D5DCA01CF639EA00EF0D7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D5DCA11CF639EA00EF0D7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D5DCA31CF639EA00EF0D7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04D5DCA41CF639EA00EF0D7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04D5DCA71CF639EA00EF0D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D5DCA91CF639EA00EF0D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D5DCAC1CF639EA00EF0D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D5DCAE1CF639EA00EF0D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D5DCB31CF639EA00EF0D7C /* SkutCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkutCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D5DCB71CF639EA00EF0D7C /* SkutCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkutCalculatorTests.m; sourceTree = "<group>"; };
+		04D5DCB91CF639EA00EF0D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D5DCBE1CF639EA00EF0D7C /* SkutCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkutCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D5DCC21CF639EA00EF0D7C /* SkutCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkutCalculatorUITests.m; sourceTree = "<group>"; };
+		04D5DCC41CF639EA00EF0D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D5DC971CF639EA00EF0D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5DCB01CF639EA00EF0D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5DCBB1CF639EA00EF0D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D5DC911CF639EA00EF0D7C = {
+			isa = PBXGroup;
+			children = (
+				04D5DC9C1CF639EA00EF0D7C /* SkutCalculator */,
+				04D5DCB61CF639EA00EF0D7C /* SkutCalculatorTests */,
+				04D5DCC11CF639EA00EF0D7C /* SkutCalculatorUITests */,
+				04D5DC9B1CF639EA00EF0D7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D5DC9B1CF639EA00EF0D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D5DC9A1CF639EA00EF0D7C /* SkutCalculator.app */,
+				04D5DCB31CF639EA00EF0D7C /* SkutCalculatorTests.xctest */,
+				04D5DCBE1CF639EA00EF0D7C /* SkutCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D5DC9C1CF639EA00EF0D7C /* SkutCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				04D5DCA01CF639EA00EF0D7C /* AppDelegate.h */,
+				04D5DCA11CF639EA00EF0D7C /* AppDelegate.m */,
+				04D5DCA31CF639EA00EF0D7C /* ViewController.h */,
+				04D5DCA41CF639EA00EF0D7C /* ViewController.m */,
+				04D5DCA61CF639EA00EF0D7C /* Main.storyboard */,
+				04D5DCA91CF639EA00EF0D7C /* Assets.xcassets */,
+				04D5DCAB1CF639EA00EF0D7C /* LaunchScreen.storyboard */,
+				04D5DCAE1CF639EA00EF0D7C /* Info.plist */,
+				04D5DC9D1CF639EA00EF0D7C /* Supporting Files */,
+			);
+			path = SkutCalculator;
+			sourceTree = "<group>";
+		};
+		04D5DC9D1CF639EA00EF0D7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D5DC9E1CF639EA00EF0D7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04D5DCB61CF639EA00EF0D7C /* SkutCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D5DCB71CF639EA00EF0D7C /* SkutCalculatorTests.m */,
+				04D5DCB91CF639EA00EF0D7C /* Info.plist */,
+			);
+			path = SkutCalculatorTests;
+			sourceTree = "<group>";
+		};
+		04D5DCC11CF639EA00EF0D7C /* SkutCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D5DCC21CF639EA00EF0D7C /* SkutCalculatorUITests.m */,
+				04D5DCC41CF639EA00EF0D7C /* Info.plist */,
+			);
+			path = SkutCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D5DC991CF639EA00EF0D7C /* SkutCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5DCC71CF639EA00EF0D7C /* Build configuration list for PBXNativeTarget "SkutCalculator" */;
+			buildPhases = (
+				04D5DC961CF639EA00EF0D7C /* Sources */,
+				04D5DC971CF639EA00EF0D7C /* Frameworks */,
+				04D5DC981CF639EA00EF0D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkutCalculator;
+			productName = SkutCalculator;
+			productReference = 04D5DC9A1CF639EA00EF0D7C /* SkutCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D5DCB21CF639EA00EF0D7C /* SkutCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5DCCA1CF639EA00EF0D7C /* Build configuration list for PBXNativeTarget "SkutCalculatorTests" */;
+			buildPhases = (
+				04D5DCAF1CF639EA00EF0D7C /* Sources */,
+				04D5DCB01CF639EA00EF0D7C /* Frameworks */,
+				04D5DCB11CF639EA00EF0D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D5DCB51CF639EA00EF0D7C /* PBXTargetDependency */,
+			);
+			name = SkutCalculatorTests;
+			productName = SkutCalculatorTests;
+			productReference = 04D5DCB31CF639EA00EF0D7C /* SkutCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D5DCBD1CF639EA00EF0D7C /* SkutCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D5DCCD1CF639EA00EF0D7C /* Build configuration list for PBXNativeTarget "SkutCalculatorUITests" */;
+			buildPhases = (
+				04D5DCBA1CF639EA00EF0D7C /* Sources */,
+				04D5DCBB1CF639EA00EF0D7C /* Frameworks */,
+				04D5DCBC1CF639EA00EF0D7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D5DCC01CF639EA00EF0D7C /* PBXTargetDependency */,
+			);
+			name = SkutCalculatorUITests;
+			productName = SkutCalculatorUITests;
+			productReference = 04D5DCBE1CF639EA00EF0D7C /* SkutCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D5DC921CF639EA00EF0D7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					04D5DC991CF639EA00EF0D7C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					04D5DCB21CF639EA00EF0D7C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04D5DC991CF639EA00EF0D7C;
+					};
+					04D5DCBD1CF639EA00EF0D7C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 04D5DC991CF639EA00EF0D7C;
+					};
+				};
+			};
+			buildConfigurationList = 04D5DC951CF639EA00EF0D7C /* Build configuration list for PBXProject "SkutCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D5DC911CF639EA00EF0D7C;
+			productRefGroup = 04D5DC9B1CF639EA00EF0D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D5DC991CF639EA00EF0D7C /* SkutCalculator */,
+				04D5DCB21CF639EA00EF0D7C /* SkutCalculatorTests */,
+				04D5DCBD1CF639EA00EF0D7C /* SkutCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D5DC981CF639EA00EF0D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D5DCAD1CF639EA00EF0D7C /* LaunchScreen.storyboard in Resources */,
+				04D5DCAA1CF639EA00EF0D7C /* Assets.xcassets in Resources */,
+				04D5DCA81CF639EA00EF0D7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5DCB11CF639EA00EF0D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5DCBC1CF639EA00EF0D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D5DC961CF639EA00EF0D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D5DCA51CF639EA00EF0D7C /* ViewController.m in Sources */,
+				04D5DCA21CF639EA00EF0D7C /* AppDelegate.m in Sources */,
+				04D5DC9F1CF639EA00EF0D7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5DCAF1CF639EA00EF0D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D5DCB81CF639EA00EF0D7C /* SkutCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D5DCBA1CF639EA00EF0D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D5DCC31CF639EA00EF0D7C /* SkutCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D5DCB51CF639EA00EF0D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D5DC991CF639EA00EF0D7C /* SkutCalculator */;
+			targetProxy = 04D5DCB41CF639EA00EF0D7C /* PBXContainerItemProxy */;
+		};
+		04D5DCC01CF639EA00EF0D7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D5DC991CF639EA00EF0D7C /* SkutCalculator */;
+			targetProxy = 04D5DCBF1CF639EA00EF0D7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D5DCA61CF639EA00EF0D7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D5DCA71CF639EA00EF0D7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04D5DCAB1CF639EA00EF0D7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D5DCAC1CF639EA00EF0D7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D5DCC51CF639EA00EF0D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D5DCC61CF639EA00EF0D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D5DCC81CF639EA00EF0D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkutCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04D5DCC91CF639EA00EF0D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkutCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04D5DCCB1CF639EA00EF0D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkutCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkutCalculator.app/SkutCalculator";
+			};
+			name = Debug;
+		};
+		04D5DCCC1CF639EA00EF0D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SkutCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkutCalculator.app/SkutCalculator";
+			};
+			name = Release;
+		};
+		04D5DCCE1CF639EA00EF0D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkutCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkutCalculator;
+			};
+			name = Debug;
+		};
+		04D5DCCF1CF639EA00EF0D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SkutCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ID.SkutCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SkutCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D5DC951CF639EA00EF0D7C /* Build configuration list for PBXProject "SkutCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5DCC51CF639EA00EF0D7C /* Debug */,
+				04D5DCC61CF639EA00EF0D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D5DCC71CF639EA00EF0D7C /* Build configuration list for PBXNativeTarget "SkutCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5DCC81CF639EA00EF0D7C /* Debug */,
+				04D5DCC91CF639EA00EF0D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04D5DCCA1CF639EA00EF0D7C /* Build configuration list for PBXNativeTarget "SkutCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5DCCB1CF639EA00EF0D7C /* Debug */,
+				04D5DCCC1CF639EA00EF0D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04D5DCCD1CF639EA00EF0D7C /* Build configuration list for PBXNativeTarget "SkutCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5DCCE1CF639EA00EF0D7C /* Debug */,
+				04D5DCCF1CF639EA00EF0D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D5DC921CF639EA00EF0D7C /* Project object */;
+}
