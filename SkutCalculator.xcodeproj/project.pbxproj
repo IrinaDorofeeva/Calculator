@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0428747D1D4A35BC0017F618 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0428747C1D4A35BC0017F618 /* background@2x.png */; };
+		0428747F1D4A35C10017F618 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0428747E1D4A35C10017F618 /* background.png */; };
 		04D5DC9F1CF639EA00EF0D7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DC9E1CF639EA00EF0D7C /* main.m */; };
 		04D5DCA21CF639EA00EF0D7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DCA11CF639EA00EF0D7C /* AppDelegate.m */; };
 		04D5DCA51CF639EA00EF0D7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DCA41CF639EA00EF0D7C /* ViewController.m */; };
-		04D5DCA81CF639EA00EF0D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5DCA61CF639EA00EF0D7C /* Main.storyboard */; };
+		04D5DCA81CF639EA00EF0D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5DCA61CF639EA00EF0D7C /* Main.storyboard */; settings = {ASSET_TAGS = (2, ); }; };
 		04D5DCAA1CF639EA00EF0D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D5DCA91CF639EA00EF0D7C /* Assets.xcassets */; };
 		04D5DCAD1CF639EA00EF0D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D5DCAB1CF639EA00EF0D7C /* LaunchScreen.storyboard */; };
 		04D5DCB81CF639EA00EF0D7C /* SkutCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D5DCB71CF639EA00EF0D7C /* SkutCalculatorTests.m */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0428747C1D4A35BC0017F618 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		0428747E1D4A35C10017F618 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		04D5DC9A1CF639EA00EF0D7C /* SkutCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkutCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5DC9E1CF639EA00EF0D7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D5DCA01CF639EA00EF0D7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				04D5DCA01CF639EA00EF0D7C /* AppDelegate.h */,
+				0428747C1D4A35BC0017F618 /* background@2x.png */,
+				0428747E1D4A35C10017F618 /* background.png */,
 				04D5DCA11CF639EA00EF0D7C /* AppDelegate.m */,
 				04D5DCA31CF639EA00EF0D7C /* ViewController.h */,
 				04D5DCA41CF639EA00EF0D7C /* ViewController.m */,
@@ -202,6 +208,18 @@
 		04D5DC921CF639EA00EF0D7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+				);
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Mac;
 				TargetAttributes = {
@@ -244,7 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D5DCAD1CF639EA00EF0D7C /* LaunchScreen.storyboard in Resources */,
+				0428747F1D4A35C10017F618 /* background.png in Resources */,
 				04D5DCAA1CF639EA00EF0D7C /* Assets.xcassets in Resources */,
+				0428747D1D4A35BC0017F618 /* background@2x.png in Resources */,
 				04D5DCA81CF639EA00EF0D7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +518,7 @@
 				04D5DCC91CF639EA00EF0D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04D5DCCA1CF639EA00EF0D7C /* Build configuration list for PBXNativeTarget "SkutCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +527,7 @@
 				04D5DCCC1CF639EA00EF0D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04D5DCCD1CF639EA00EF0D7C /* Build configuration list for PBXNativeTarget "SkutCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +536,7 @@
 				04D5DCCF1CF639EA00EF0D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
